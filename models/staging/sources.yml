@@ -1,0 +1,15 @@
+version: 2
+sources:
+  - name: sources
+    database: TPCDS_10TB
+    schema: TPCDS_SF10TCL
+   
+    tables:
+    - name: customer
+    - name: customer_address
+    - name: web_sales
+    - name: date_dim
+    - name: inventory
+    - name: catalog_sales
+    - name: store
+    - name: store_sales 
