@@ -14,7 +14,7 @@ select
 , S_COUNTRY as country -- TEXT
 , S_ZIP as zip_code -- TEXT
 , S_MANAGER as store_manager -- TEXT
-CONCAT(S_STREET_NUMBER , S_STREET_NAME) as address ,
+, CONCAT(S_STREET_NUMBER , S_STREET_NAME) as address 
 , S_STORE_NAME as store_name -- TEXT
 , S_COMPANY_ID as company_id -- NUMBER
 , S_NUMBER_EMPLOYEES as number_empoyees -- NUMBER
